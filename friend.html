@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>My Personal Doo-Dad - Be my Friend</title>
+</head>
+<body>
+    <!-- Navbar Start -->
+     <!-- Navbar Start -->
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container text-white">
+          <a href="portfolio-personal.html" class="navbar-brand">It's a me Brandon</a>
+          <button 
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="about-me.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a href="friend.html" class="nav-link">Be My Friend</a>
+                </li>
+              </ul>
+            </div> 
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <section class="bg-success text-light p-5 p-lg-0 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 md-5">
+        <div class="container p-5 bg-dark">
+        <div class="row-md col-sm">
+            <div class="d-md-flex bg-dark align-items-center justify-content-evenly">
+            <img src="guy-friend.jpg" alt="" class="img-fluid col=lg=8 col-md-6 pt-5 pe-5">
+            <h3 class="-col-lg-3 col-md-6 pt-5">If you would like to connect feel free to fill out the form below!</h3>
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-success text-dark p-5 p-lg-0 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 md-5 pt-10">
+        <div class="container p-5 border border-dark border-2 shadow p-3 mb-5 bg-body">
+            <div class="card text-start mb-">
+                <div class="card-body">
+                    <h3 class="card-title text-center mx-auto">Contact Us!</h3>
+                    <br>
+                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Don't break a sweat! Our team will come back to you within
+                        a matter of hours to help you.</p>
+
+                    <div class="row">
+                        <div class="col-md-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-outline-success border border-2 border-success" style="min-width: 300px;" onclick="document.getElementById('contact-form').submit();">Submit Your Query</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                       
+                        <div class="col-md-3 text-center">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <p>777 Somewhereville, North State USA</p>
+                                </li>
+
+                                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                    <p>+012 345 6789</p>
+                                </li>
+
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <p>example@example.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+
+                </section>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Footer Start -->
+
+     <hr>
+     <div class="footer container-fluid text-dark">
+         <div class="row pt-5">
+             <div class="col-lg-3 col-md-6 mb-5">
+                 <h4 class="text-success mb-4">Get In Touch</h4>
+                 <p><i class="fa fa-map-marker-alt mr-2"></i>777 Somewhereville, North State USA</p>
+                 <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                 <p><i class="fa fa-envelope mr-2"></i>example@example.com</p>
+                 <div class="d-flex justify-content-start mt-4">
+                     <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
+                     <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                     <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-6 mb-5">
+                 <h4 class="text-success mb-4">Connect with Me</h4>
+                 <div class="d-flex flex-column justify-content-start">
+                     <a class="text-dark mb-2" href="https://www.linkedin.com/in/brandon-behringer" target="_blank"><i class="fa fa-angle-right mr-2"></i>LinkedIn</a>
+                     <a class="text-dark mb-2" href="https://chat.google.com/room/AAAAP4WAQmw?cls=7" target="_blank"><i class="fa fa-angle-right mr-2"></i>G-Chat</a>
+                     <a class="text-dark mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Discord</a>
+                     <a class="text-dark mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Slack</a>
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-6 mb-5">
+                 <h4 class="text-success mb-4">Popular Links</h4>
+                 <div class="d-flex flex-column justify-content-start">
+                     <a class="text-dark mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                     <a class="text-dark mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Be my Friend</a>
+                     <a class="text-dark mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Lets Play</a>
+                     <a class="text-dark mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Me</a>
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-6 mb-5">
+                 <h4 class="text-success mb-4">Awake Hours</h4>
+                 <h5 class="text-dark">Monday - Sunday</h5>
+                 <p>8.00 AM - 12.00 AM</p>
+             </div>
+         </div>
+         <div class="container border-top border-dark pt-5">
+             <p class="m-0 text-center text-dark">
+                 &copy; <a class="text-dark font-weight-bold" href="#">My Life on a Website</a>. All Rights Reserved. Designed by
+                 <a class="text-dark font-weight-bold" href="https://htmlcodex.com">Brandon Behringer</a>
+             </p>
+         </div>
+     </div>
+     <!-- Footer End -->
+ 
+     <!-- Back to Top -->
+     <a href="#" class="btn btn-outline-success back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
